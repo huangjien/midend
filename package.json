@@ -1,0 +1,28 @@
+{
+  "name": "midend",
+  "version": "0.0.1",
+  "description": "middle end in frontend",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangjien/midend.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "frontend",
+    "data"
+  ],
+  "author": "huangjien@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huangjien/midend/issues"
+  },
+  "homepage": "https://github.com/huangjien/midend#readme"
+}
