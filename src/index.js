@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-export default useMidEnd = (key, initialValue) => {
+export default function useMidEnd (key, initialValue) {
     const [storedValue, setStoredValue] = useState(() => {
         try {
             const item = window.localStorage.getItem(key);

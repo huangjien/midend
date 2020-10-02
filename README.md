@@ -6,4 +6,7 @@ This project's target is: create a hook for react, it will be the mini backend a
 ## Install
 ``` npm install midend ```
 
+## Embedded Demo
+``` npm run start ```
+
 ## Usage

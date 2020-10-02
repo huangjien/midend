@@ -9,6 +9,9 @@
 # production
 /build
 /lib
+.cache
+development
+dist
 
 # misc
 .DS_Store
