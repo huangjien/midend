@@ -1,6 +1,6 @@
 {
   "name": "midend",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "middle end in frontend",
   "main": "index.js",
   "directories": {
