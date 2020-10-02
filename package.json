@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/huangjien/midend/issues"
   },
-  "homepage": "https://github.com/huangjien/midend#readme"
+  "homepage": "https://github.com/huangjien/midend#readme",
+  "dependencies": {
+    "react": "^16.13.1"
+  }
 }
