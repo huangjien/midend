@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+    - "12"
+dist: xenial
+
+cache: npm
+
+env:
+    - TERM=dumb
+
+script:
+    - npm version patch --no-git-tag-version
+    - npm run build
+    - npm run publish
+    
