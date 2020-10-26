@@ -1,13 +1,13 @@
 {
   "name": "midend",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "middle end in frontend",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
   "scripts": {
-    "start": "parcel example/index.html --out-dir development",
+    "start": "parcel example/index.html  --out-dir development",
     "test": "test",
     "build": "webpack --mode=development",
     "publish": "webpack --mode=production"

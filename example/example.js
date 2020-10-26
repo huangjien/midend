@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import useMidEnd from './index'
+import useMidEnd from '../src/index'
 
 const Root = () => {
   const [name, setName] = useMidEnd('name', 'Jien')
