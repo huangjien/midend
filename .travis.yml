@@ -9,7 +9,16 @@ env:
     - TERM=dumb
 
 script:
-    - npm version patch --no-git-tag-version
+    - npm ci
     - npm run build
-    - npm run publish
+
+deploy:
+    - provider: script
+      script: 
+        - npm version patch --no-get-tag-version
+        - npm ci
+        - npm run build
+        - npm run publish
+      on:
+        branch: master
     
