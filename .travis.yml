@@ -14,11 +14,7 @@ script:
 
 deploy:
     - provider: script
-      script: 
-        - npm version patch --no-get-tag-version
-        - npm ci
-        - npm run build
-        - npm run publish
+      script: npm version patch --no-get-tag-version && npm ci && npm run build && npm run publish
       on:
         branch: master
     

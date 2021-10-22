@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-export default function useMidEnd (key, initialValue) {
+export default function useMidEnd (key, initialValue, uri, options, interval) {
     const [storedValue, setStoredValue] = useState(() => {
         try {
             const item = window.localStorage.getItem(key);
