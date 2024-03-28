@@ -27,10 +27,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .vscode/settings.json
-
+.parcel-cache
 /gradle
 gradlew
 gradlew.bat
 
 # Ignore Gradle build output directory
 build
+yarn.loc
+package-lock.json

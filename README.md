@@ -4,7 +4,7 @@
 This project's target is: create a hook for react, it will be the mini backend at the frontend side, it will manage the global variables, data and communication between backend and frontend.
 
 ## Install
-``` npm install midend ```
+``` npm install --save midend ```
 
 ## Embedded Demo
 ``` npm run start ```

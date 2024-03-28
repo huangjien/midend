@@ -1,13 +1,13 @@
 {
   "name": "midend",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "middle end in frontend",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
   "scripts": {
-    "start": "parcel example/index.html --out-dir development",
+    "start": "parcel example/index.html --dist-dir dist",
     "test": "jest",
     "build": "webpack --mode=development",
     "publish": "webpack --mode=production",
@@ -21,7 +21,8 @@
     "react",
     "hook",
     "frontend",
-    "data"
+    "data",
+    "cache"
   ],
   "author": "huangjien@gmail.com",
   "license": "MIT",
